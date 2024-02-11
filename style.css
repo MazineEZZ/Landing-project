@@ -17,7 +17,7 @@ body {
   background: #1e2837;
   display: flex;
   flex-direction: column;
-  padding: 10px 200px 130px 200px;
+  padding: 10px 180px 130px 180px;
 }
 
 .header-section .header {
@@ -108,6 +108,33 @@ img {
   width: 160px;
   text-align: center;
   color: #4b5462;
+}
+
+/* Quote section */
+.quote-section {
+  background: #e4e6eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.quote-section .text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-section .author {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.quote-section .text, .author {
+  color: black;
 }
 
 /* General Selectors */
